@@ -1,6 +1,7 @@
+import HeroImage from "../../public/HeroImage.jpg"
 export const Hero = () =>{
     return(
-      <div className="flex-grow flex items-center justify-center">
+      <div className="flex-grow mt-4 flex items-center justify-center">
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center gap-10">
         {/* Left Content */}
         <div className="text-center md:text-left">
@@ -12,10 +13,10 @@ export const Hero = () =>{
             You can use our services in any convenient way – the choice is
             yours.
           </p>
-          <button className="mt-6 px-6 py-3 bg-pink-500 text-white font-semibold rounded-lg hover:bg-pink-600 transition">
+          <button className="mt-6 px-6 py-3 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-pink-600 transition">
             Book Your Order
           </button>
-          <div className="mt-6 flex items-center space-x-4">
+          {/* <div className="mt-6 flex items-center space-x-4">
             <div className="flex -space-x-2">
               <img
                 src="/_assets/reviewer1.jpg"
@@ -36,7 +37,7 @@ export const Hero = () =>{
             <div className="text-gray-700">
               <span className="font-bold">900+ Reviews</span>
             </div>
-          </div>
+          </div> */}
           <div className="mt-8 flex space-x-8">
             <div className="text-center">
               <div className="text-blue-600 text-2xl font-bold">
@@ -60,7 +61,7 @@ export const Hero = () =>{
         <div className="relative">
           <div className="w-[350px] h-[450px] bg-blue-100 rounded-[30px] shadow-xl overflow-hidden">
             <img
-              src="/_assets/laundry_person.jpg"
+              src={HeroImage}
               alt="Laundry Hero"
               className="w-full h-full object-cover"
             />

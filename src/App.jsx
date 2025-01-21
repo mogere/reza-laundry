@@ -8,7 +8,7 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-blue-50 to-blue-100 min-h-screen flex flex-col">
+    <div className="bg-gradient-to-r font-sans scroll-smooth from-blue-50 to-blue-100 min-h-screen flex flex-col">
       <Nav />
       <Hero />
       <Services />

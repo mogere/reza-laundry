@@ -14,7 +14,7 @@ export const Nav = () =>{
               <path d="M9 2a7 7 0 11-5.84 11.36l-1.58 2.72a.5.5 0 01-.58.24.5.5 0 01-.34-.44v-4.68A7 7 0 019 2zm1 8V4.5a.5.5 0 00-1 0V10a.5.5 0 00.25.43l2.5 1.5a.5.5 0 00.5-.86L10 10z" />
             </svg>
           </div>
-          <span>Cleano</span>
+          <span>Reza Laundry</span>
         </div>
 
         {/* Navigation */}

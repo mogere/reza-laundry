@@ -1,4 +1,9 @@
 import { useState } from "react";
+import Contact from "../../public/icons/Contact.svg"
+import Location from "../../public/icons/Location.svg"
+import Hours from "../../public/icons/Hours.svg"
+import Email from "../../public/icons/Email.svg"
+
 
 const FAQSection = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -22,43 +27,25 @@ const FAQSection = () => {
             <ul className="space-y-6">
               <li className="flex items-center space-x-4">
                 <span className="text-blue-600">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M3 10h11M9 21V3m8 8h2m-2-6h.01M21 16h-6m2-3v6"
-                    />
-                  </svg>
+                  <img
+                 src={Contact}
+                 alt="Phone number"
+                 className="w-full h-8 object-cover"
+               />
                 </span>
                 <div>
                   <h4 className="text-lg font-medium text-gray-700">Contact</h4>
-                  <p className="text-gray-500">(+44) 117 2345678</p>
+                  <p className="text-gray-500">0758167055</p>
                 </div>
               </li>
 
               <li className="flex items-center space-x-4">
                 <span className="text-blue-600">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M16 12H8m4-8h.01M20 20H4"
-                    />
-                  </svg>
+                <img
+                 src={Email}
+                 alt="Email contact"
+                 className="w-full h-8 object-cover"
+               />
                 </span>
                 <div>
                   <h4 className="text-lg font-medium text-gray-700">Email</h4>
@@ -68,20 +55,11 @@ const FAQSection = () => {
 
               <li className="flex items-center space-x-4">
                 <span className="text-blue-600">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M16 21V19m-7-8h6m8-3v4M8 3H4"
-                    />
-                  </svg>
+                <img
+                 src={Location}
+                 alt="Location"
+                 className="w-full h-8 object-cover"
+               />
                 </span>
                 <div>
                   <h4 className="text-lg font-medium text-gray-700">Address</h4>
@@ -91,22 +69,13 @@ const FAQSection = () => {
                 </div>
               </li>
 
-              <li className="flex items-center space-x-4">
+              <li className="flex items-start space-x-4">
                 <span className="text-blue-600">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M3 10h11m1 5m1m3"
-                    />
-                  </svg>
+                <img
+                 src={Hours}
+                 alt="Working hours"
+                 className="w-full h-8 object-cover"
+               />
                 </span>
                 <div>
                   <h4 className="text-lg font-medium text-gray-700">
@@ -123,7 +92,7 @@ const FAQSection = () => {
           {/* Right Column - FAQ */}
           <div className="bg-white p-6 rounded-lg shadow-lg">
             {[
-              "How does Cleano Laundry work?",
+              "How does the Laundry work?",
               "Is there minimum spending required for free delivery?",
               "How long will I be without my clothes?",
               "What forms of payment do you accept?",

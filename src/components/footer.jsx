@@ -1,12 +1,12 @@
 const Footer = () => {
     return (
-      <footer className="bg-teal-900 text-white py-10">
+      <footer className="bg-gradient-to-r from-blue-700 to-blue-300 text-white py-10">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           {/* Logo and Description */}
           <div className="text-center">
             {/* Logo */}
             <div className="flex justify-center items-center mb-4">
-              <div className="text-4xl font-bold">Cleano</div>
+              <div className="text-4xl font-bold">Reza Laundry</div>
               <span className="text-sm text-teal-300 ml-2">✦</span>
             </div>
             {/* Description */}
@@ -51,7 +51,7 @@ const Footer = () => {
           {/* Copyright and Policies */}
           <div className="mt-6 text-center border-t border-teal-800 pt-6">
             <p className="text-sm text-gray-400">
-              © Copyright Cleano 2024
+              © Copyright Reza Laundry 2025
             </p>
             <p className="text-sm text-gray-400 mt-2">
               <a href="#" className="hover:text-white transition">
