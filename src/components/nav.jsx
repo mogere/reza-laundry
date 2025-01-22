@@ -28,7 +28,7 @@ export const Nav = () =>{
           <a href="#" className="hover:text-blue-600 transition">
             About us
           </a>
-          <a href="#" className="hover:text-blue-600 transition">
+          <a href="#faq" className="hover:text-blue-600 transition">
             FAQs
           </a>
         </nav>
